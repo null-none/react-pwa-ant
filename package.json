@@ -1,0 +1,21 @@
+{
+  "name": "react-pwa-ant",
+  "version": "1.0.0",
+  "description": "React PWA Ant design starter",
+  "scripts": {
+    "start": "pawjs --env=development start",
+    "build": "pawjs --env=production --config=prod.pawconfig.json build"
+  },
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/null-none/react-pwa-ant/issues"
+  },
+  "dependencies": {
+    "@pawjs/less": "^2.1.1",
+    "@pawjs/pawjs": "^2.3.2",
+    "antd": "^3.23.3"
+  }
+}
